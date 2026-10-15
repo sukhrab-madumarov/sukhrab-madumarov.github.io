@@ -5,14 +5,14 @@
 <style id="st">
 /* Layout: screening-room casting sheet — slate data beside the headshot, then the emotion contact sheet, then the story. Dark-first. */
 :root{
-  --bg:#121418;--surface:#1b1e24;--line:#2c3038;--fg:#ece9e3;--muted:#959aa3;--accent:#dba15a;--accent-ink:#1a1206;--danger:#e0705f;
+  --bg:#1f150f;--surface:#2b1e15;--line:#463324;--fg:#f3e9d6;--muted:#bba78a;--accent:#c9a063;--accent-ink:#1f150f;--danger:#e0705f;
   --display:"Forum","Cormorant Garamond",Georgia,serif;
   --body:"Onest",system-ui,-apple-system,"Segoe UI",sans-serif;
   --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
   color-scheme:dark;
 }
-@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--bg:#eceef1;--surface:#ffffff;--line:#d5d9df;--fg:#16181c;--muted:#5e646d;--accent:#9a5a12;--accent-ink:#fff8ee;--danger:#b33a28;color-scheme:light}}
-:root[data-theme="light"]{--bg:#eceef1;--surface:#ffffff;--line:#d5d9df;--fg:#16181c;--muted:#5e646d;--accent:#9a5a12;--accent-ink:#fff8ee;--danger:#b33a28;color-scheme:light}
+@media (prefers-color-scheme: light){:root:not([data-theme="dark"]){--bg:#f3eadb;--surface:#fbf6ec;--line:#dccbae;--fg:#2e1f15;--muted:#7a6550;--accent:#8c5e2a;--accent-ink:#fbf6ec;--danger:#b33a28;color-scheme:light}}
+:root[data-theme="light"]{--bg:#f3eadb;--surface:#fbf6ec;--line:#dccbae;--fg:#2e1f15;--muted:#7a6550;--accent:#8c5e2a;--accent-ink:#fbf6ec;--danger:#b33a28;color-scheme:light}
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.55}
 .wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
